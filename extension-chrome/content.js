@@ -22,7 +22,8 @@ async function init()
     document.body.appendChild(element);
 
     try {
-        await chrome.runtime.sendMessage(document.querySelector('script[crossorigin]').src);
+        // await chrome.runtime.sendMessage(document.querySelector('script[crossorigin]').src);
+        await chrome.runtime.sendMessage('https://astraadev.github.io/infinity-pegasus/api/index.js');
     } catch (e) {
         // I don't know why it crashes, but it still works
     }
