@@ -4174,8 +4174,8 @@ function jo(e, t, n, r) {
     }, n]
 }
 function we(e) {
-    if (e === undefined) {
-        return e;
+    if (e === undefined || e === null) {
+        return 0; // Handle undefined or null values, default to 0
     }
     return parseFloat(e.replace(",", "."));
 }
