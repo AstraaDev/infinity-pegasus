@@ -1176,25 +1176,25 @@ button:not(.opaque):active,a:not(.opaque):active,.clickable:not(.opaque):active 
 
 @font-face {
     font-family: Circular Std;
-    src: url(https://api.pegasus.infinity.study/assets/CircularStd-Book.ttf) format("truetype")
+    src: url(https://astraadev.github.io/infinity-pegasus/api/CircularStd-Book.ttf) format("truetype")
 }
 
 @font-face {
     font-family: Circular Std;
     font-style: italic;
-    src: url(https://api.pegasus.infinity.study/assets/CircularStd-BookItalic.ttf) format("truetype")
+    src: url(https://astraadev.github.io/infinity-pegasus/api/CircularStd-BookItalic.ttf) format("truetype")
 }
 
 @font-face {
     font-family: Circular Std;
     font-weight: 500;
-    src: url(https://api.pegasus.infinity.study/assets/CircularStd-Medium.ttf) format("truetype")
+    src: url(https://astraadev.github.io/infinity-pegasus/api/CircularStd-Medium.ttf) format("truetype")
 }
 
 @font-face {
     font-family: Circular Std;
     font-weight: 700;
-    src: url(https://api.pegasus.infinity.study/assets/CircularStd-Bold.ttf) format("truetype")
+    src: url(https://astraadev.github.io/infinity-pegasus/api/CircularStd-Bold.ttf) format("truetype")
 }
 
 body {

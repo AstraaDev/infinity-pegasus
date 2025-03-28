@@ -3812,7 +3812,7 @@ class Po extends He {
 }
 const Ho = "modulepreload"
   , On = {}
-  , Bo = "https://api.pegasus.infinity.study/"
+  , Bo = "https://astraadev.github.io/infinity-pegasus/api/"
   , fe = function(t, n) {
     return !n || n.length === 0 ? t() : Promise.all(n.map(r => {
         if (r = `${Bo}${r}`,

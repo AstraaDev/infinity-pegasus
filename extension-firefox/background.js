@@ -9,7 +9,7 @@ const PEGASUS_PAGE = PEGASUS_ROOT + 'index.php';
 const PDF_JS_VERSION = '2.11.338';
 
 // We have no choice but to embed the html, since we can't use `fetch` here (well, I didn't manage to at least)
-const INFINITY_PEGASUS_URL = DEBUG ? 'http://localhost:3000/' : 'https://api.pegasus.infinity.study/';
+const INFINITY_PEGASUS_URL = DEBUG ? 'http://localhost:3000/' : 'https://astraadev.github.io/infinity-pegasus/api/';
 const INFINITY_PEGASUS_HTML = `<!DOCTYPE html>
 <html lang="fr">
   <head>
