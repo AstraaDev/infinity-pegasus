@@ -3,7 +3,7 @@
 
 const DEBUG = false;
 
-const INFINITY_PEGASUS_URL = DEBUG ? 'http://localhost:5000/' : 'https://astraadev.github.io/infinity-pegasus/api/';
+const INFINITY_PEGASUS_URL = DEBUG ? 'http://localhost:5000/' : 'https://api.pegasus.infinity.study/';
 
 async function init()
 {
